@@ -32,7 +32,7 @@ fetch - pull - (add) - commit - push
 - step1. 내 작업 프로젝트 폴더로 이동  
 - step2. 해당 프로젝트 폴더에서 깃 사용한다고 알림 (`git init`)  
 - step3. 해당 모든 프로젝트 파일 add 해줌 (`git add .`)  
-- step4. 해당 수정내역 commit 남기 (`git commit -m 'Init 깃 이전작업들')  
+- step4. 해당 수정내역 commit 남기 (`git commit -m 'Init 깃 이전작업들'`)  
 - step5. 계속 이어서 작업(본인의 기준대로 방명록커밋 남기기)  
 ### <깃허브올리기>
 - step6. 깃허브에 빈(깨끗한) 레파지토리 생성  
