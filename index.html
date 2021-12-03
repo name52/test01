@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TEST01</title>
+
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;700&display=swap" rel="stylesheet">
+
+  <!-- style -->
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- script -->
+  <script src="assets/js/libs/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</head>
+<body>
+  <!-- [s]cont1 -->
+  <section id="cont1" class="content cont1">
+    <div class="inner">
+      <h2 class="main-tit">본문 영역1</h2>
+    </div>
+  </section>
+
+  <!-- [s]cont2 -->
+  <section class="content cont2">
+    <div class="inner">
+      <h2 class="main-tit">본문 영역2</h2>
+      <ul class="box-list">
+        <li>
+          <div class="box-tit">UI 구현</div>
+          <!-- [note]방법1(js::line5) -->
+          <!-- <button class="btn btn-pop1">자세히 보기</button> -->
+          <!-- [note]방법2(js::line20) -->
+          <button class="btn btn-more" data-modal="modal1">자세히 보기</button>
+        </li>
+        <li>
+          <div class="box-tit">UI 구현</div>
+          <!-- [note]방법1(js::line5) -->
+          <!-- <button class="btn btn-pop2">자세히 보기</button> -->
+          <!-- [note]방법2(js::line20) -->
+          <button class="btn btn-more" data-modal="modal2">자세히 보기</button>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- [s]cont3 -->
+  <section class="content cont3">
+    <div class="inner">
+      <h2 class="main-tit">본문 영역3</h2>
+    </div>
+  </section>
+
+  <!-- [s]modal1 -->
+  <div id="modal1" class="modal modal-window">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3>UI구현 팝업1</h3>
+      </div>
+      <div class="modal-body">
+        <p class="desc">UI 구현 표준은 사용자의 사용성 향상과 개발자의 개발 효율성을 높이기 위하여 프로젝트 초기에 정의한다. 화면 간에 공통으로 구성되는 화면구성(예: 내비게이션, 고정영역, 가변영역) 및 화면요소(예: 버튼, 폰트 등의 크기 및 색상)에 대하여 최소한으로 정의해 두는 공통 규격이다.</p>
+        <button class="btn modal-close">닫기</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- [s]modal2 -->
+  <div id="modal2" class="modal modal-window">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3>UI구현 팝업2</h3>
+      </div>
+      <div class="modal-body">
+        <p class="desc">팝업의 너비는 500px</p>
+        <button class="btn modal-close">닫기</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- [s]quick -->
+  <aside class="quick">
+    <a href="#cont1" class="btn-top">TOP</a>
+  </aside>
+</body>
+</html>
